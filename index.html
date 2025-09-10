@@ -196,11 +196,147 @@
 
 
 		</div>
+
+		<div class="practice">
+			<h1> Sep 8 Practice </h1>
+			<! -- Form Practice -->
+
+				<form action="" name="firstform">
+					<p> Enter your full name:
+						<input type="text" name="fullname">
+					</p>
+
+					<p> Enter your password:
+						<input type="text" name="pwd">
+					</p>
+
+					<p> Enter your favorite browser:
+						<label> Firefox <input type="checkbox" name="browser" value="firefox"> </label>
+						<label> Chrome <input type="checkbox" name="browser" value="chrome"> </label>
+						<label> Edge <input type="checkbox" name="browser" value="edge"> </label>
+					</p>
+
+					<p> Enter your favorite meat:
+						<br /> <label> <input type="checkbox" name="meat" value="chicken"> Chicken </label>
+						<br /> <label> <input type="checkbox" name="meat" value="beef"> Beef </label>
+						<br /> <label> <input type="checkbox" name="meat" value="fish"> Fish </label>
+					</p>
+
+					<p> Yes or no?
+						<br /> <input type="radio" name="choice" value="Yes" checked> Yes <br />
+						<input type="radio" name="choice" value="No"> No
+					</p>
+
+					<p>
+						<textarea name="comment" id="" cols="30" rows="10"> Default text </textarea>
+					</p>
+
+					<p> Pick the operating system that you prefer: <br />
+						<select name="OS" size="4" multiple="4">
+							<option value="linux"> Linux </option>
+							<option value="windows"> Windows </option>
+							<option value="mac"> Mac </option>
+							<option value="openbsd"> OpenBSD </option>
+						</select>
+					</p>
+
+					<p>
+						<input type="submit" value="Submit">
+					</p>
+				</form>
+
+				<! -- Required -->
+
+					<br />
+					<br />
+
+					<form action="" name="inclass">
+						<p> Username:
+							<input type="text" name="fullname">
+						</p>
+
+						<p> Password:
+							<input type="password" name="pwd">
+						</p>
+
+						<p> Please select your favorite genre:
+							<br />
+							<label> <input type="radio" name="genre" value="Rock"> Rock </label>
+							<label> <input type="radio" name="genre" value="Pop"> Pop </label>
+							<label> <input type="radio" name="genre" value="Jazz"> Jazz </label>
+						</p>
+
+						<p> Your favorite music service:
+							<br />
+							<label> <input type="checkbox" name="service" value="ITunes"> ITunes</label>
+							<label> <input type="checkbox" name="service" value="Last.fm"> Last.fm </label>
+							<label> <input type="checkbox" name="service" value="Spotify"> Spotify </label>
+						</p>
+
+						<input type="hidden" name="hidden" value="HiddenValue" />
+
+						<p>
+							<input type="submit" value="Submit">
+						</p>
+					</form>
+
+		</div>
+
+		<div class="practice">
+			<h1> Sep 10th Practice </h1>
+
+
+			<form>
+				<button name="test" value="buttonval">
+					<img src="img/add.gif" alt="add symbol" />
+					<p>
+						alskdjflaskjdflajs
+						alskdjflaskjdflajs
+					</p>
+
+				</button>
+
+				<input name="color" type="color" autofocus />
+				<input name="date" type="date" />
+			</form>
+
+			<br />
+
+			<form>
+				<input name="email" type="email" placeholder="test@email.com" required />
+				<br />
+				<input name="telephone" type="tel" placeholder="(123)123-1234" required pattern="\(\d{3}\)-\d{3}-\d{4}">
+				<br />
+				<input name=" submit" type="submit" value="Submit" />
+			</form>
+
+
+			<! -- Required -->
+				<form>
+					<h1> Create a new Account </h1>
+
+					<input placeholder="First name" name="first" type="text" />
+					<input placeholder="Last name" name="last" type="text" />
+					<br />
+					<input placeholder="Mobile number or email" name="contact" type="text" />
+					<br />
+					<input placeholder="New password" name="pass" type="password" />
+					<br />
+					<label> <input type="radio" name="gender" value="Male"> Male </label>
+					<label> <input type="radio" name="gender" value="Female"> Female </label>
+
+
+
+
+
+				</form>
+
+
+		</div>
+
+
 	</div>
 
-	<div class="practice">
-
-	</div>
 
 	<script type="text/javascript" src="index.js"></script>
 </body>
